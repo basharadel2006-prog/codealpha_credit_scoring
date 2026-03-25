@@ -1,0 +1,75 @@
+================================================================================
+[2026-03-25 14:32:15] MODEL TRAINING
+================================================================================
+
+TRAINING COMPLETE
+Dataset Size: 12,000 samples
+Training Set: 9,000 samples (75%)
+Test Set: 3,000 samples (25%)
+
+MODELS TRAINED:
+1. Logistic Regression - ROC-AUC: 0.9916
+2. Decision Tree - ROC-AUC: 0.9687
+3. Random Forest - ROC-AUC: 0.9903
+
+BEST MODEL: LogisticRegression (ROC-AUC: 0.9916)
+
+DETAILED METRICS:
+
+LogisticRegression:
+  Precision: 0.9677
+  Recall: 0.9637
+  F1-Score: 0.9657
+  ROC-AUC: 0.9916
+
+DecisionTree:
+  Precision: 0.9492
+  Recall: 0.9213
+  F1-Score: 0.9350
+  ROC-AUC: 0.9687
+
+RandomForest:
+  Precision: 0.9518
+  Recall: 0.9452
+  F1-Score: 0.9485
+  ROC-AUC: 0.9903
+
+================================================================================
+[2026-03-25 14:35:42] CREDIT PREDICTION
+================================================================================
+
+PREDICTION RECORD
+Classification: Good Credit (Low Risk)
+Good Credit Probability: 96.23%
+Poor Credit Probability: 3.77%
+
+INPUT DATA:
+  Income: $75,000.00
+  Debt: $20,000.00
+  Late Payments: 0
+  Credit Utilization: 40.00%
+  Months on Book: 60
+  Number of Credit Lines: 5
+  Age: 40
+  Loan Purpose: debt_consolidation
+  Employment Status: employed
+
+================================================================================
+[2026-03-25 16:49:04] CREDIT PREDICTION
+================================================================================
+PREDICTION RECORD
+Classification: Poor Credit (High Risk)
+Good Credit Probability: 0.26%
+Poor Credit Probability: 99.74%
+
+INPUT DATA:
+  Income: $65,000.00
+  Debt: $15,000.00
+  Late Payments: 1
+  Credit Utilization: 50.00%
+  Months on Book: 60
+  Number of Credit Lines: 5
+  Age: 35
+  Loan Purpose: debt_consolidation
+  Employment Status: employed
+

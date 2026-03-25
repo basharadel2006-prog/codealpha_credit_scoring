@@ -1,0 +1,2 @@
+timestamp,classification,good_credit_prob,poor_credit_prob,income,debt,late_payments,credit_utilization,months_on_book,num_credit_lines,age,loan_purpose,employment_status
+2026-03-25 16:49:04,Poor Credit (High Risk),0.2569536323475452,99.74304636765245,65000.0,15000.0,1,0.5,60,5,35,debt_consolidation,employed

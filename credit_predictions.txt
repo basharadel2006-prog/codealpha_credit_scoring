@@ -1,0 +1,18 @@
+
+============================================================
+Prediction Timestamp: 2026-03-25 16:49:04
+============================================================
+Credit Score Classification: Poor Credit (High Risk)
+Probability of Good Credit: 0.26%
+Probability of Poor Credit: 99.74%
+
+Financial Data:
+  Income: $65,000.00
+  Debt: $15,000.00
+  Late Payments: 1
+  Credit Utilization: 50.00%
+  Months on Book: 60
+  Number of Credit Lines: 5
+  Age: 35
+  Loan Purpose: debt_consolidation
+  Employment Status: employed

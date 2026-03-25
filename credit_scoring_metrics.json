@@ -1,0 +1,27 @@
+{
+  "precision":{
+    "LogisticRegression":0.9676975945,
+    "DecisionTree":0.9492242595,
+    "RandomForest":0.9517574087
+  },
+  "recall":{
+    "LogisticRegression":0.9637234771,
+    "DecisionTree":0.9212867899,
+    "RandomForest":0.9452429843
+  },
+  "f1_score":{
+    "LogisticRegression":0.9657064472,
+    "DecisionTree":0.9350468913,
+    "RandomForest":0.948489011
+  },
+  "roc_auc":{
+    "LogisticRegression":0.9915556249,
+    "DecisionTree":0.9686912797,
+    "RandomForest":0.9903303522
+  },
+  "classification_report":{
+    "LogisticRegression":"              precision    recall  f1-score   support\n\n           0       0.97      0.97      0.97      1539\n           1       0.97      0.96      0.97      1461\n\n    accuracy                           0.97      3000\n   macro avg       0.97      0.97      0.97      3000\nweighted avg       0.97      0.97      0.97      3000\n",
+    "DecisionTree":"              precision    recall  f1-score   support\n\n           0       0.93      0.95      0.94      1539\n           1       0.95      0.92      0.94      1461\n\n    accuracy                           0.94      3000\n   macro avg       0.94      0.94      0.94      3000\nweighted avg       0.94      0.94      0.94      3000\n",
+    "RandomForest":"              precision    recall  f1-score   support\n\n           0       0.95      0.95      0.95      1539\n           1       0.95      0.95      0.95      1461\n\n    accuracy                           0.95      3000\n   macro avg       0.95      0.95      0.95      3000\nweighted avg       0.95      0.95      0.95      3000\n"
+  }
+}
